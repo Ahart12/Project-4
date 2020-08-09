@@ -85,14 +85,24 @@ Partnered Apps page
 # Additional Libraries
 
 Front End:
+
 React 
+
 Axios
+
 Material UI
+
+
 Back End:
+
 Cors
+
 Morgan
+
 React media
+
 Socket Io
+
 # Code Snippet
 
 # Bugs & Fixes:
