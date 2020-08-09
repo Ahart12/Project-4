@@ -74,8 +74,11 @@ User can sign up and create and edit thier profile. User can see users from a da
 # PostMVP
 
 Upcoming events page
+
 Add Videos to page
+
 Create Multiple niched chatrooms
+
 Partnered Apps page
 
 
