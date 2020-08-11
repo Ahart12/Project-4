@@ -11,7 +11,7 @@ Social App that brings people together in hopes to develop life-long friendships
 Platonic is a social media app that helps you to build a community of individuals whos intentions are geard towards cultivating long term non sexual friendships. It provides easy, safe and effective avenues to meet like minded people whether you find this difficult to do in person or not. 
 
 ## WireFrames
-[link] https://www.figma.com/file/ggHX2UIenjrlLL1xYJQtQ2/Platonic-Colors?node-id=0%3A1
+ https://www.figma.com/file/ggHX2UIenjrlLL1xYJQtQ2/Platonic-Colors?node-id=0%3A1
 
 # USER STORIES
 
