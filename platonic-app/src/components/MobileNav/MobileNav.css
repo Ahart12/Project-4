@@ -1,0 +1,50 @@
+.hamburger {
+    color: white;
+    position: fixed;
+    left: 0px;
+    top: 20px;
+}
+
+.hamburger div {
+    width: 32px;
+    height: 5px;
+    background-color: blue;
+    margin: 6px 12px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.exit {
+    cursor: pointer;
+    color: blue;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.exit:hover {
+    color: yellow;
+}
+
+.mobile-nav {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    background-color:red;
+    border-radius: 25px;
+    width: 90vw;
+    height: 90vh;
+
+}
+.mobile-nav a {
+    color: blue;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.mobile-nav a:hover {
+    color: yellow;
+}

@@ -1,0 +1,24 @@
+html {
+    background-color: black;
+} 
+Nav {
+    display: none;
+}
+ h1 {
+    font-family: "Gabriel Weiss' Friends Font";
+color: white;
+letter-spacing: 20px;
+font-size: 55px;
+margin-top: 200px;
+}
+
+span, .red {
+    
+  font-size: 25px;
+}
+span > .blue {
+    color: blue;
+}
+span > .yelllow {
+    color: yellow;
+} 

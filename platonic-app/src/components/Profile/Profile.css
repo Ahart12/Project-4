@@ -1,0 +1,29 @@
+h2 {
+    color:white;
+    font-family: "Gabriel Weiss' Friends Font";
+}
+.dashboard {
+    background-color: #362936;
+    font-family: "Gabriel Weiss' Friends Font";
+    font-size: 24px;
+    padding: 25px;
+  }
+  .user-info {
+      text-align: center;
+  }
+  .img-crop {
+    
+    background-image: radial-gradient(farthest-side at 80% 55%, blue, yellow);
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 30%;
+    display: inline-block;
+  }
+  .user-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 30%;
+      display: inline-block;
+  }

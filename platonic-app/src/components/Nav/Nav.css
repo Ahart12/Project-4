@@ -1,0 +1,27 @@
+
+
+
+.desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.desktop-nav a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.desktop-nav a:hover {
+    color: yellow;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .desktop-nav a {
+        font-size: 18px;
+    }
+}
