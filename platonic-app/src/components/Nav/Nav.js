@@ -18,6 +18,7 @@ const Nav = () => {
             <div className="desktop-nav">
          
             <Link to="/Home">Home</Link>
+            <Link to="/About" >About</Link>
               <Link to="/FriendsList">Friends</Link>
               <Link to="/Profile">Profile</Link>
               <Link to="/Messages">Messages</Link>

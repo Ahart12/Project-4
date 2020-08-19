@@ -37,7 +37,7 @@ return (
           <div className="img-crop">
        
      <img src={info.img_url}className="user-image" alt="profile-img"></img></div>
-      <h2>{info.first_name}</h2> 
+      <h2 class="animate__animated animate__swing">{info.first_name}</h2> 
       <h2>{info.age}</h2> 
       <h2>{info.location}</h2>
       <h2>{info.interests}</h2>

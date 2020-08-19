@@ -10,6 +10,8 @@ import Nav from "./components/Nav/Nav";
 import Profile from "./components/Profile/Profile";
 import Home from "./components/Home/Home";
 import Login from "./components/Register/Login";
+import About from "./components/About/About";
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -23,11 +25,14 @@ function App() {
     </header>
     <div className="App">
       <Switch>
+      
+ 
         <Route path="/Title" component={Title} />
         
         
       <Route path="/Home" component={Home} />
       <Route path="/Login" component={Login} />
+      <Route path="/About" component={About} />
       <Route path="/Chatroom" component={Chatroom} />
       <Route path="/Messages" component={Messages} /> 
       <Route path="/FriendsList" render={() => <FriendsList setCurrentProfile={setCurrentProfile}/>} />
@@ -35,6 +40,7 @@ function App() {
  
       <Route path="/Profile" render={() => <Profile currentProfile={currentProfile}/>} />
       </Switch>
+      <Footer/>
     </div>
     </>
   );

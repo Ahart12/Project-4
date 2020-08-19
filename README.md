@@ -35,19 +35,15 @@ User can sign up and create and edit thier profile. User can see users from a da
 
 | React/Front End                               | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --------------------------------------------- | :------: | :------------: | :------------: | :---------: |
-| Navbar & Footer                               |    H     |       2        |                |             |
-| React Router                                  |    H     |       8        |                |             |
-| Home Page                                     |    H     |       2        |                |             |
-| Registration Page                             |    H     |       4        |                |             |
-| Favorites Page with list of users liked       |    H     |       5        |                |             |
-| Preferences Page                              |    H     |       5        |                |             |
-| Dashboard with like/dislike buttons           |    H     |       5        |                |             |
-| Chatroom                                      |    H     |       5        |                |             |
-| Create Profile Form                           |    H     |       2        |                |             |
-| Direct Messages Page                          |    H     |       4        |                |             |
-| Your Profile Page                             |    H     |       2        |                |             |
-| Responsive Design                             |    H     |       4        |                |             |
-| CSS/ Styling                                  |    H     |       8        |                |             |
+| Navbar & Footer                               |    H     |       2        |                |       2      |
+| React Router                                  |    H     |       8        |                |          15   |
+| Home Page                                     |    H     |       2        |                |     2        |
+| Registration Page                             |    H     |       4        |                |       6      |
+| Chatroom                                      |    H     |       5        |           10     |             |
+| Create Profile Form                           |    H     |       2        |        6        |             |
+| Direct Messages Page                          |    H     |       4        |                |       10      |
+| Your Profile Page                             |    H     |       2        |                |        4     |
+| CSS/ Styling                                  |    H     |       8        |                |      8       |
 | Create Hangouts Page                          |    H     |       3        |                |             |
 | Total                                         |    H     |       59       |                |             |
 
@@ -58,15 +54,10 @@ User can sign up and create and edit thier profile. User can see users from a da
 | App                    |                      Sets up app with React Router                       |
 | Nav                    | Nav guides to about, home, favorites, register, dashboard, current chats |
 | Router/Home            |                    Contains Switch/Routes for content                    |
-| Footer                 |                           Footer for the page                            |
-| Hangout Page           |        Page that allows users to plan hangout event                      |
 | Form Component-create  |             A form that allows users to create their account             |
-| Chatroom form          |             A form that allows users to type/ send messages              |
 | Dashboard              |                   Component to like, dislike accounts                    |
-| Favorites Page         |                 Page that displays your likes/ favorites                 |
 | Chatroom               |   Page that allows users to engage in conversations with many users      |
 | Direct message Page    |                Page that allows user to engage in private message        |
-| Preferences Page       |          Page that lets a user choose their search preferences           |
 | User Details           |          Shared/Reusable component that renders one users data           |
 
 # MVP example

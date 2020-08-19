@@ -161,7 +161,7 @@ function Messages() {
   return (
     <div className="card">
       <form onSubmit={onMessageSubmit}>
-        <h1>Messanger</h1>
+        <h1 class="animate__animated animate__swing">Messanger</h1>
         <div className="name-field">
           <TextField
             name="name"
@@ -175,7 +175,7 @@ function Messages() {
             name="message"
             onChange={e => onTextChange(e)}
             value={state.message}
-            id="outlined-multiline-static"
+            id="filled"
             variant="filled"
             label="Message"
           />
@@ -183,7 +183,7 @@ function Messages() {
         <button>Send Message</button>
       </form>
       <div className="render-chat">
-        <h1>Chat Log</h1>
+        <h1 class="animate__animated animate__bounce">Your Chats</h1>
         {renderChat()}
       </div>
     </div>
